@@ -4,7 +4,7 @@ Calling `zk` from other programs can be useful in a number of situations, such a
 
 * creating notes from your text editor using a custom shortcut
 * creating a reference note from the text selected in your web browser
-* automating periodical maintenance tasks on your [notebook](notebook.md)
+* automating periodical maintenance tasks on your [notebook](../notes/notebook.md)
 * displaying the backlinks of a note in a GUI wrapper around `zk`
 
 The following options can be useful to make sure `zk` behaves properly in a background context:
