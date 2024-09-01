@@ -6,10 +6,7 @@
 zk documentation
 ================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
+`zk` is a plain text note-taking tool that leverages the power of the command line.
 
 .. toctree::
    :maxdepth: 2
