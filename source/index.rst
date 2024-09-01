@@ -7,8 +7,14 @@ zk documentation
 ================
 
 `zk` is a plain text note-taking tool that leverages the power of the command line.
+Let's :doc:`get started <tips/getting-started>`.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :titlesonly:
+
+   config/index
+   notes/index
+   tips/index
+
 
