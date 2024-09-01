@@ -1,18 +1,18 @@
 # Configuration file
 
-Each [notebook](notebook.md) contains a configuration file used to customize your experience with `zk`. This file is located at `.zk/config.toml` and uses the [TOML format](https://github.com/toml-lang/toml). It is composed of several optional sections:
+Each [notebook](../notes/notebook.md) contains a configuration file used to customize your experience with `zk`. This file is located at `.zk/config.toml` and uses the [TOML format](https://github.com/toml-lang/toml). It is composed of several optional sections:
 
 * `[notebook]` configures the [default notebook](config-notebook.md)
 * `[note]` sets the [note creation rules](config-note.md)
 * `[extra]` contains free [user variables](config-extra.md) which can be expanded in templates
 * `[group]` defines [note groups](config-group.md) with custom rules
-* `[format]` configures the [note format settings](note-format.md), such as Markdown options
+* `[format]` configures the [note format settings](../notes/note-format.md), such as Markdown options
 * `[tool]` customizes interaction with external programs such as:
     * [your default editor](tool-editor.md)
     * [your default shell](tool-shell.md)
     * [your default pager](tool-pager.md)
     * [`fzf`](tool-fzf.md)
-* `[lsp]` setups the [Language Server Protocol settings](config-lsp.md) for [editors integration](editors-integration.md)
+* `[lsp]` setups the [Language Server Protocol settings](config-lsp.md) for [editors integration](../tips/editors-integration.md)
 * `[filter]` declares your [named filters](config-filter.md)
 * `[alias]` holds your [command aliases](config-alias.md)
 

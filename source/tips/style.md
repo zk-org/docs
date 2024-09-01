@@ -1,6 +1,6 @@
 # Styling
 
-`zk` supports a `{{style}}` [template helper](template.md) to format its output with colors and font decorations.
+`zk` supports a `{{style}}` [template helper](../notes/template.md) to format its output with colors and font decorations.
 
 Usage: `{{style "<rules>" "<text>"}}`
 
