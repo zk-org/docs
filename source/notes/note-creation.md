@@ -12,6 +12,7 @@ By default, `zk new` will start [your editor](../config/tool-editor.md) after cr
 note. You can choose instead to print the absolute path to the note with
 `--print-path`, which is more useful for [automation](../tips/automation.md).
 
+(test)=
 ## Search or create with a single command
 
 If you are not sure whether a note already exists for a particular subject, the
