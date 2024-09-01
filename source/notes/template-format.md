@@ -1,9 +1,10 @@
 # Template context when formatting a note
 
-The following variables are available in the templates used when formatting notes, for example with `zk list --format <template>`.
+The following variables are available in the templates used when formatting
+notes, for example with `zk list --format <template>`.
 
 | Variable        | Type     | Description                                                              |
-|-----------------|----------|--------------------------------------------------------------------------|
+| --------------- | -------- | ------------------------------------------------------------------------ |
 | `filename`      | string   | Filename of the note, including its extension                            |
 | `filename-stem` | string   | Filename of the note without the file extension                          |
 | `path`          | string   | File path to the note, relative to the current directory                 |
@@ -21,5 +22,6 @@ The following variables are available in the templates used when formatting note
 | `modified`      | date     | Last date of modification of the note                                    |
 | `checksum`      | string   | SHA-256 checksum of the note file                                        |
 
-1. The format of the generated Markdown links can be customized in the [note format configuration](note-format.md).
+1. The format of the generated Markdown links can be customized in the
+   [note format configuration](note-format.md).
 2. YAML keys are normalized to lower case.
