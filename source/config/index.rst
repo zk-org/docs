@@ -5,7 +5,7 @@ Configuration
    :glob:
    :maxdepth: 3
 
-   The Config File <config>
+   The config file <config>
    Notebook <config-notebook>
    Notes <config-note>
    Groups <config-group>
