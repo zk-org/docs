@@ -26,7 +26,7 @@ $ zk new --title "An interesting concept"
 You can customize your experience using [custom templates](../notes/template.md) to
 generate many kind of notes.
 
-<div align="center"><img alt="Create a note" width="85%" src="assets/media/new1.svg"/></div>
+![Create a note](../assets/media/new1.svg)
 
 If you are not sure whether a note already exists for a particular subject, the
 "search or create" mode might be more appropriate than `zk new`. It is inspired
@@ -36,7 +36,7 @@ existing note or creating a new one in a single action.
 From `zk`'s interactive edit screen, press `Ctrl-E` to create a new note using
 the current search query as title.
 
-<div align="center"><img alt="Create a note" width="85%" src="assets/media/new2.svg"/></div>
+![Create a note](../assets/media/new2.svg)
 
 ## List existing notes
 
@@ -50,27 +50,27 @@ To help structure your notebook, you can add [metadata](../notes/note-frontmatte
 $ zk list --tag "recipe" --match "pizza -pineapple"
 ```
 
-<div align="center"><img alt="Format the list output" width="85%" src="assets/media/list.svg"/></div>
+![List notes](../assets/media/list.svg)
 
 Sort the results however you need with `--sort`.
 
-<div align="center"><img alt="Format the list output" width="85%" src="assets/media/list-sort.svg"/></div>
+![Sort notes](../assets/media/list-sort.svg)
 
 `--format` and `--delimiter` offer some versatile formatting options to
 customize the output.
 
-<div align="center"><img alt="Format the list output" width="85%" src="assets/media/list-format.svg"/></div>
+![Note list format](../assets/media/list-format.svg)
 
 `zk` is aware of the links you set between your notes. Backlinks or outbound
 links of a note can be revealed by using the link filtering options. It even
 supports listing indirect links thanks to `--recursive`.
 
-<div align="center"><img alt="Format the list output" width="85%" src="assets/media/list-link.svg"/></div>
+![Note list links](../assets/media/list-link.svg)
 
 `zk` supports an interactive mode powered by
 [`fzf`](https://github.com/junegunn/fzf) to further filter notes manually.
 
-<div align="center"><img alt="Format the list output" width="85%" src="assets/media/list-interactive.svg"/></div>
+![Note list interactive](../assets/media/list-interactive.svg)
 
 ## Edit existing notes
 
@@ -84,7 +84,7 @@ $ zk edit --interactive --match "recipe pizza -pineapple"
 $ zk edit -i -m "recipe pizza -pineapple"
 ```
 
-<div align="center"><img alt="Format the list output" width="85%" src="assets/media/edit.svg"/></div>
+![Note edit](../assets/media/edit.svg)
 
 ## Edit the configuration file
 
@@ -98,4 +98,4 @@ $ vim .zk/config.toml
 Declaring your own [aliases](../config/config-alias.md) is a great way to make your
 experience with `zk` easier and more familiar.
 
-<div align="center"><img alt="Format the list output" width="85%" src="assets/media/alias.svg"/></div>
+![Note alias](../assets/media/alias.svg)
