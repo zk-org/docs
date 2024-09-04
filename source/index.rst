@@ -13,7 +13,7 @@ Let's :doc:`get started <tips/getting-started>`.
    :hidden:
    :titlesonly:
 
-   Github <https://github.com/zk-org/zk>
+   Repo <https://github.com/zk-org/zk>
    zk-nvim <https://github.com/zk-org/zk-nvim>
 
    config/index

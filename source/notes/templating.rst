@@ -1,5 +1,5 @@
 Templating
-=========
+==========
 
 .. toctree::
    :maxdepth: 3
