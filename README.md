@@ -1,11 +1,15 @@
 # ZK Docs
 
-## Setup
+The docs in `source` are also a `zk` notebook 😉
+
+Write docs in your editor, as you know best; with `zk`!
+
+## Local Setup
 
 - [install Sphinx](https://www.sphinx-doc.org/en/master/usage/installation.html)
 - install Furo theme: `pip install furo`
 
-## Build
+## Local Build
 
 From the root directory run `sphinx-build -a source build`
 
