@@ -1,4 +1,4 @@
-# Configuration file
+# The Configuration File
 
 Each [notebook](../notes/notebook.md) contains a configuration file used to customize your experience with `zk`. This file is located at `.zk/config.toml` and uses the [TOML format](https://github.com/toml-lang/toml). It is composed of several optional sections:
 

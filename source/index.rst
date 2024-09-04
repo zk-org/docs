@@ -1,17 +1,20 @@
-.. zk documentation master file, created by
-   sphinx-quickstart on Sun Sep  1 20:26:06 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. image:: assets/media/zk-black-modern.png
+   :align: center
+   :width: 300px
 
-zk documentation
-================
+.. image:: assets/media/screencast.svg
+   :align: center
 
-`zk` is a plain text note-taking tool that leverages the power of the command line.
+`zk` is a plain text note-taking tool that leverages the power of the command line. 
+
 Let's :doc:`get started <tips/getting-started>`.
 
 .. toctree::
    :hidden:
    :titlesonly:
+
+   Github <https://github.com/zk-org/zk>
+   zk-nvim <https://github.com/zk-org/zk-nvim>
 
    config/index
    notes/index
